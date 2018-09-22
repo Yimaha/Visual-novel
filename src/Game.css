@@ -1,0 +1,27 @@
+/*
+ * Student Names: Justin Cai & Henry Xue
+ * Teacher Name: Mr. Benum
+ * Course Code: ICS4U
+ * Date: June 15, 2018
+ *
+ * Description:
+ * Stylesheet for game screen.
+ */
+
+.button {
+    -fx-pref-width: 250px;
+    -fx-pref-height: 100px;
+    -fx-text-fill: white;
+    -fx-font: bold 16px "Arial Narrow";
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
+#optionA, #optionB {
+    -fx-pref-width: 500px;
+    -fx-pref-height: 50px;
+    -fx-text-fill: white;
+    -fx-font: bold 16px "Arial Narrow";
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}

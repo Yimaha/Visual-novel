@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Student Names: Justin Cai & Henry Xue
+    Teacher Name: Mr. Benum
+    Course Code: ICS4U
+    Date: June 15, 2018
+
+    Description:
+    FXML GUI file for game screen.
+-->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+<?import java.net.URL?>
+
+<Pane fx:controller="GameController"
+      xmlns:fx="http://javafx.com/fxml">
+
+    <stylesheets>
+        <URL value="@Game.css"/>
+    </stylesheets>
+
+    <!-- background image -->
+    <ImageView fx:id="image" onMouseClicked="#chapterTwoEntrance">
+        <Image url="@Office.jpg"/>
+    </ImageView>
+
+    <!-- save button -->
+    <Button text="Save" layoutX="250"
+            onAction="#save"/>
+
+    <!-- main plot text -->
+    <Text fx:id="text" text="&quot;Starting...&quot;" layoutY="250"
+          wrappingWidth="500"
+          onMouseClicked="#next"/>
+
+    <!-- time string -->
+    <Text fx:id="timeDisplay"
+          layoutX="300" layoutY="200"/>
+
+    <!-- option A button -->
+    <Button fx:id="optionA" visible="false" layoutY="400"
+            onAction="#selectOption" userData="A"/>
+
+    <!-- option B button -->
+    <Button fx:id="optionB" visible="false" layoutY="450"
+            onAction="#selectOption" userData="B"/>
+
+</Pane>

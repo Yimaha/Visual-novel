@@ -1,0 +1,30 @@
+/*
+ * Student Names: Justin Cai & Henry Xue
+ * Teacher Name: Mr. Benum
+ * Course Code: ICS4U
+ * Date: June 15, 2018
+ *
+ * Description:
+ * Stylesheet for title screen.
+ */
+
+.button {
+    -fx-pref-width: 300px;
+    -fx-pref-height: 100px;
+    -fx-text-fill: white;
+    -fx-font: bold 16px "Arial Narrow";
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+#title {
+    -fx-font: bold 40px "Impact";
+}
+
+#Henry, #Justin {
+    -fx-font: bold 15px "Impact";
+}

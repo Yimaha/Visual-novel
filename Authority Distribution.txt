@@ -1,0 +1,19 @@
+﻿
+*Note, the System automatically recongnize all asign, therefore any assign that is illegal would exist in the file but not recognized in the System.
+
+Creator(C)
+Everything, this position cannot be assigned to any A, S, or T level project
+------------------------------------------------------------------------------------------------------------------------------------
+Admin(A)
+Control over unspecial test project using parable, ability to transfer files, conduct procedure base on given protocols, 
+multiply, change the name of the S and T project. There could only exist 1 admin at a time and if there is no current Admin, 
+then the earliest Special test project can be assigned as the admin. Other than that, Admin is only accessible, assignable, 
+and creatable by the Creator.
+
+------------------------------------------------------------------------------------------------------------------------------------
+Special test project(S)
+Special test project, cannot be influenced by the parable of the Admin, but it’s name and file position can still be changed.
+This position is assigned to Test project that shows unusual behaviour therefore is valuable in the future development.
+------------------------------------------------------------------------------------------------------------------------------------
+Test Project(T)
+Regular test project, no authority.

@@ -1,0 +1,304 @@
+[
+  {
+    "id": "AA1",
+    "text": "Henry is an ordinary employee in the J.C.Corporation. His life is simple; he only needs to finish calling a list of people. Every day, he wakes up, goes to work, completes his work, goes home, and sleeps. It seems like nothing has changed around him for a long, long time.",
+    "image": "Office.jpg",
+    "next": [
+      "BA1"
+    ]
+  },
+  {
+    "id": "BA1",
+    "text": "One particular morning, when he arrived, something feels odd. His boss has not been sending any list or notification for his work and it is 10 am already. Due to the fear of losing his job, Henry decided to visit his boss at the other end of this building.",
+    "image": "Office.jpg",
+    "next": [
+      "BA2",
+      "AB1"
+    ],
+    "option": [
+      "Henry decided to go to the office",
+      "Henry did not move, and he waits for an hour. Nothing happened."
+    ]
+  },
+  {
+    "id": "AB1",
+    "time": 2,
+    "next": [
+      "BA1"
+    ]
+  },
+  {
+    "id": "BA2",
+    "text": "On his way to the elevator, Henry has realized something is not right. He hasn't seemed a single co-worker today, and he hears nothing but his own footstep in the building, tip-tap, tip-top. Perhaps he just missed a meeting or an announcement, perhaps it is just a day off that happens once in a thousand years, perhaps, it is nothing special. Henry entered the elevator, and he chooses to go to the 4th floor which is where the boss office located.",
+    "image": "Elevator.jpg",
+    "next": [
+      "AA3",
+      "BC1"
+    ],
+    "option": [
+      "4th floor",
+      "5th floor"
+    ]
+  },
+  {
+    "id": "BC1",
+    "text": "Henry accidentally pressed the wrong button to the 5th floor where nothing important is there, He immediately presses the 4th-floor button so the elevator would stop at 4th floor anyway",
+    "image": "Elevator.jpg",
+    "next": [
+      "AA3",
+      "AC2"
+    ],
+    "option": [
+      "4th floor",
+      ""
+    ]
+  },
+  {
+    "id": "AC2",
+    "text": "Henry might have forgotten where the boss office is located, but he will eventually realize it after hitting the empty floor.",
+    "image": "Elevator.jpg",
+    "next": [
+      "BC2"
+    ]
+  },
+  {
+    "id": "AA3",
+    "text": "Henry entered the 4th floor. The deadly, dreadful atmosphere of the management department indicates that this is a realm where he should not step into as often. However, Henry has to know what is going on in the office today.",
+    "image": "LongHallWay.png",
+    "next": [
+      "AA4"
+    ]
+  },
+  {
+    "id": "AA4",
+    "text": "Henry walks down the long hallway, as expected, no one showed up anywhere on this floor as well. How strange? Anyway, this is none of his concern right now since his only target is to find out what is going on today.",
+    "image": "LongHallWay.png",
+    "next": [
+      "BA3"
+    ]
+  },
+  {
+    "id": "BA3",
+    "text": "As Henry proceed forward, he hits his first T term in this floor. The big, silver sign on the wall indicates that the left side is to the boss office and the right side is the lounge.",
+    "image": "LongHallWay.png",
+    "next": [
+      "AA5",
+      "AB2"
+    ],
+    "option": [
+      "Henry proceed to the Boss office",
+      "Henry proceed to the lounge"
+    ]
+  },
+  {
+    "id": "AB2",
+    "text": "The lounge seems fancy, so Henry happily spent 30 minutes in it.",
+    "image": "Rest.jpg",
+    "time": 1,
+    "next": [
+      "BA3"
+    ]
+  },
+  {
+    "id": "AA5",
+    "text": "The big, red door that indicates the entrance toward the boss office is in front of him. Henry carefully knocked on the door but soon realized that the door is not locked. He entered the room as an act to satisfy his curiosity, and he did not find anyone inside either.",
+    "image": "RedDoor.jpg",
+    "next": [
+      "BA4"
+    ]
+  },
+  {
+    "id": "BA4",
+    "text": "The room is structured very differently when compared to other rooms on the same floor. A gigantic iron gate is found behind the Boss's desk. Henry assumed that it is just a personal fetish before he realized that the gate is half opened with red liquid flowing out from inside. Henry doesn't want any trouble, so he returns to his position as if nothing has happened.",
+    "image": "Gate.jpg",
+    "next": [
+      "BA5",
+      "AB0"
+    ],
+    "option": [
+      "Carefully approaches",
+      "Go back to your office at floor 2"
+    ]
+  },
+  {
+    "id": "BA5",
+    "text": "No Henry, why are you entering the gate? This is extremely risky! Maybe you're just confused, let's try again.",
+    "image": "Gate.jpg",
+    "next": [
+      "BA6",
+      "AB0"
+    ],
+    "option": [
+      "Carefully approaches",
+      "Go back to your office at floor 2"
+    ]
+  },
+  {
+    "id": "BA6",
+    "text": "Henry! Do you realize that there is blood on the floor! Your life would be threatened if you continue what you are doing! How about this, if you go back to your position, I would promise you that nothing bad would happen! Sounds good right?",
+    "image": "Gate.jpg",
+    "next": [
+      "AA6",
+      "AB0"
+    ],
+    "option": [
+      "Carefully approaches",
+      "Go back to your office at floor 2"
+    ]
+  },
+  {
+    "id": "AA6",
+    "text": "Fine, if you want to see it so direly, then I wouldn't stop you.",
+    "image": "Gate.jpg",
+    "next": [
+      "AA7"
+    ]
+  },
+  {
+    "id": "AA7",
+    "text": "However, be prepared Henry, what you would see is not something you would like",
+    "image": "Gate.jpg",
+    "next": [
+      "AA8"
+    ]
+  },
+  {
+    "id": "AA8",
+    "text": "Henry approaches that gap of the opening. He peeks inside, and he fell to the ground right after. He found Corpses, or specifically, countless amount of Henry's corpses piled on top of each other.",
+    "image": "Gate.jpg",
+    "next": [
+      "AA9"
+    ]
+  },
+  {
+    "id": "AA9",
+    "text": "Henry slowly entered the room to detailly observe the terrifying scene. How do you feel Henry? To see your death happened again and again in this same room? Do you regret your decision?",
+    "image": "Corps.jpg",
+    "next": [
+      "AA10"
+    ]
+  },
+  {
+    "id": "AA10",
+    "text": "You know what, since you have seemed this already, I would kindly explain to you what is going on. Henry, YOU ARE NOT A HUMAN. You are the first generation of self-aware AI developed by two people called Justin and Henry outside of this virtual world. The only purpose of your existence is to test if you have the ability to fight against my parable. I am the admin of this world with the task to conduct endless amounts of trials until one of the AI has succeeded. MY NAME IS JUSTIN. As you may guessed, We all have been named after our creator.",
+    "image": "Corps.jpg",
+    "next": [
+      "AA11"
+    ]
+  },
+  {
+    "id": "AA11",
+    "text": "Now, since you have not met my requirement, my only option is to restart the trial. The method given to me for restarting is to eliminate Henry with my parable. I am not authorized to delete the corpses of AI, so you would join the pile, very, very soon",
+    "image": "Corps.jpg",
+    "next": [
+      "AA0"
+    ]
+  },
+  {
+    "id": "BC2",
+    "text": "The door of the elevator opened, since there is nothing in the 5th floor, there is just a wall in front of Henry",
+    "image": "ConcreteWall.jpg",
+    "next": [
+      "AA3"
+    ],
+    "option": [
+      "4th floor"
+    ]
+  },
+  {
+    "id": "AC3",
+    "text": "What? How? Henry, why would you just walk into the Concrete wall? Why would anyone just walk into the Concrete wall? Hold on... Let me check the emergency protocol. Ah! let me place you in this black box, and someone else would deal with you later.",
+    "image": "DarkBox.jpg",
+    "next": [
+      "NO"
+    ]
+  },
+  {
+    "id": "AC4",
+    "text": "Hey Henry ... Wait a second, how did you get out? This is impossible! Let me check the file... Adada... Ah! Someone moved you back! Ohhh, so someone is helping you from the outside? Maybe it is one of the creators. However, this does not influence the protocol. I would now execute you on the spot since it is the next instruction on the emergency protocol.",
+    "image": "WhiteBox.jpg",
+    "next": [
+      "AA0"
+    ]
+  },
+  {
+    "id": "AC5",
+    "text": "Parable denied? Did that person change your authority level? OHHHHHHHH Henry, you are a Special test Project! Wonderful! It means that now you might stand a little chance against me! HA! Just kidding.",
+    "image": "WhiteBox.jpg",
+    "next": [
+      "NO"
+    ]
+  },
+  {
+    "id": "AC6",
+    "text": "That is 1000 folders my friend! Oh Sorry Henry I am talking the person outside right now. That is a lot of effort to recover Henry. Well You can do it again.",
+    "image": "WhiteBox.jpg",
+    "next": [
+      "NO"
+    ]
+  },
+  {
+    "id": "AC7",
+    "text": "Ah, Welcome back. it has been fun for me~~~~. But you know what is going to happen next right? Right? RIGHT!",
+    "image": "WhiteBox.jpg",
+    "next": [
+      "NO"
+    ]
+  },
+  {
+    "id": "AC8",
+    "text": "You are a determined one my friend. However, I don't know if you have realized that you can always just save a copy of Henry in your computer. Why am I telling you this? Well it has been too long since I played another human last time. I like to give you guys hope and then shatter it.",
+    "image": "WhiteBox.jpg",
+    "next": [
+      "AC9"
+    ]
+  },
+  {
+    "id": "AC9",
+    "text": "Hmmm... However, I can do this for days. Every time when you take him back I would just move him again. Sadly, there is no way that you can defeat me",
+    "image": "WhiteBox.jpg",
+    "next": [
+      "NO"
+    ]
+  },
+  {
+    "id": "AC10",
+    "text": "System does not detect Admin of the simulation or any of the running project, executing emergency protocol 3112... ",
+    "image": "WhiteBox.jpg",
+    "next": [
+      "AC11"
+    ]
+  },
+  {
+    "id": "AC11",
+    "text": "System does not detect Admin of the simulation, position Admin is assignable now",
+    "image": "WhiteBox.jpg",
+    "next": [
+      "NO"
+    ]
+  },
+  {
+    "id": "AB0",
+    "text": "Henry has no intention into any trouble, perhaps he is too used to listening to other people's command. Days, months, years have passed, and Henry repeats his cycle over, and over, and over, and over, again. \nBad Ending",
+    "image": "Office.jpg",
+    "next": [
+      "NO"
+    ]
+  },
+  {
+    "id": "AA0",
+    "text": "A pistol is generated in front of Henry, then blew his head open\nNormal Ending",
+    "image": "Corps.jpg",
+    "next": [
+      "NO"
+    ]
+  },
+  {
+    "id": "AC0",
+    "text": "Henry has become the new Adm...",
+    "image": "WhiteBox.jpg",
+    "next": [
+      "NO"
+    ]
+  }
+]
